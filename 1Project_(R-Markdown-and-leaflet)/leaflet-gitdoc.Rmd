@@ -3,7 +3,6 @@ title: "R-Markdown-and-leaflet"
 author: "Name: Milton Candela"
 date: "Date: 1/23/2021"
 output: html_document
-always_allow_html: TRUE
 ---
 
 ```{r setup, include=FALSE}
@@ -29,7 +28,7 @@ mapa <- leaflet() %>%
                   popup = 
                   '<a href = "https://en.wikipedia.org/wiki/Fundidora_Park">Fundidora Park!</a>
                   <br>
-                  <img src = "https://www.greenflagaward.org/media/1346/arque-fundidora-y-canal-santa-luc%C3%ADa.jpg" height = "200" width ="260">') %>%
+                  <img src = "https://www.greenflagaward.org/media/1346/arque-fundidora-y-canal-santa-luc%C3%ADa.jpg" height = "100" width ="500">') %>%
        addRectangles(s1lat, s1lng, s2lat, s2lng)
 mapa
 ```
